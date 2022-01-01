@@ -1,0 +1,19 @@
+configuration {
+    display-drun: "Applications";
+    run-display-format: "{icon} {name}";
+	width: 100;
+	lines: 5;
+//	columns: 5;
+	font: "System San Francisco Display Regular 20";
+	bw: 0;
+	location: 0;
+	padding: 0;
+//	yoffset: -360;
+/*	xoffset: 0;*/
+/*	fixed-num-lines: true;*/
+    show-icons: true;
+	icon-theme:"candy-icons" ;
+}
+
+//@import "/usr/share/rofi/themes/Arc-Dark.rasi"
+@theme "/home/rashmina/.config/rofi/myTheme.rasi"
